@@ -12,6 +12,7 @@
 		A9F96AC62207E86900B1199E /* NothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F96AC52207E86900B1199E /* NothingViewController.swift */; };
 		A9F96B0F2207F61B00B1199E /* ArchTestSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F96B0D2207F61B00B1199E /* ArchTestSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9F96B192207FBCA00B1199E /* NothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F96AC52207E86900B1199E /* NothingViewController.swift */; };
+		A9F96B1B2207FEE800B1199E /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A9F96B1A2207FEE800B1199E /* Notes.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A9F96B0B2207F61B00B1199E /* ArchTestSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArchTestSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F96B0D2207F61B00B1199E /* ArchTestSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchTestSimulator.h; sourceTree = "<group>"; };
 		A9F96B0E2207F61B00B1199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F96B1A2207FEE800B1199E /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		A9D901CD22067A8A00032B49 = {
 			isa = PBXGroup;
 			children = (
+				A9F96B1A2207FEE800B1199E /* Notes.rtf */,
 				A9D901D922067A8A00032B49 /* ArchTest */,
 				A9F96B0C2207F61B00B1199E /* ArchTestSimulator */,
 				A9D901D822067A8A00032B49 /* Products */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F96B1B2207FEE800B1199E /* Notes.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
