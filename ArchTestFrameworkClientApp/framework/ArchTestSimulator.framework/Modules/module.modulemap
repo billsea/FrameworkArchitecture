@@ -1,0 +1,11 @@
+framework module ArchTestSimulator {
+  umbrella header "ArchTestSimulator.h"
+
+  export *
+  module * { export * }
+}
+
+module ArchTestSimulator.Swift {
+    header "ArchTestSimulator-Swift.h"
+    requires objc
+}

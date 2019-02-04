@@ -1,0 +1,17 @@
+PROJECT_NAME=ArchTest
+PROJECT_NAME_SIM=ArchTestSimulator
+UNIVERSAL_OUTPUTFOLDER="Build/Release-universal"
+
+echo "build device"
+xcodebuild -target $PROJECT_NAME -scheme $PROJECT_NAME -sdk iphoneos ONLY_ACTIVE_ARCH=NO ENABLE_BITCODE=YES OTHER_CFLAGS="-fembed-bitcode" BITCODE_GENERATION_MODE=bitcode -derivedDataPath Build/Products/iphoneos BUILD_DIR="Build/device_output" clean build
+
+echo "build simulator"
+xcodebuild -target $PROJECT_NAME_SIM -scheme $PROJECT_NAME_SIM -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO ARCHS='x86_64' ENABLE_BITCODE=YES OTHER_CFLAGS="-fembed-bitcode" BITCODE_GENERATION_MODE=bitcode BUILD_DIR="Build/simulator_output" clean build
+
+mkdir -p "${UNIVERSAL_OUTPUTFOLDER}"
+
+echo "Copying to output folder"
+cp -R "Build/device_output/Release-iphoneos/$PROJECT_NAME.framework" "${UNIVERSAL_OUTPUTFOLDER}/ArchTest.framework"
+cp -R "Build/simulator_output/Release-iphonesimulator/$PROJECT_NAME_SIM.framework" "${UNIVERSAL_OUTPUTFOLDER}/ArchTestSimulator.framework"
+
+

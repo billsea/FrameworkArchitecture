@@ -1,0 +1,2 @@
+PROJECT_NAME=ArchTest
+xcodebuild -workspace $PROJECT_NAME.xcworkspace -scheme $PROJECT_NAME -configuration Release -derivedDataPath iphoneos -sdk Build/iphonesimulator ENABLE_BITCODE=YES BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS="-fembed-bitcode" clean build
