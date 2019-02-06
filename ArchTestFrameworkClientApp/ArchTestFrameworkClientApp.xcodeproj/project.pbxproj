@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97E973C220A684B001BF965 /* ArchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F96AF62207EF4800B1199E /* ArchTest.framework */; };
+		A97E973D220A685B001BF965 /* ArchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F96AF62207EF4800B1199E /* ArchTest.framework */; };
+		A97E973E220A685B001BF965 /* ArchTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9F96AF62207EF4800B1199E /* ArchTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A9F96A7B2207916200B1199E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F96A7A2207916200B1199E /* AppDelegate.swift */; };
 		A9F96A7D2207916200B1199E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F96A7C2207916200B1199E /* ViewController.swift */; };
 		A9F96A802207916200B1199E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F96A7E2207916200B1199E /* Main.storyboard */; };
@@ -25,6 +28,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A9F96B012207F30700B1199E /* ArchTestSimulator.framework in Embed Frameworks */,
+				A97E973E220A685B001BF965 /* ArchTest.framework in Embed Frameworks */,
 				A9F96B032207F36F00B1199E /* ArchTestSimulator.h in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -50,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E973C220A684B001BF965 /* ArchTest.framework in Frameworks */,
+				A97E973D220A685B001BF965 /* ArchTest.framework in Frameworks */,
 				A9F96B002207F30700B1199E /* ArchTestSimulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

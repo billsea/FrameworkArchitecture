@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97E973F220A6A8B001BF965 /* ArchTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D901DA22067A8A00032B49 /* ArchTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9D901DC22067A8A00032B49 /* ArchTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D901DA22067A8A00032B49 /* ArchTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9D901E322067AA200032B49 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D901E222067AA200032B49 /* TestClass.swift */; };
 		A9F96AC62207E86900B1199E /* NothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F96AC52207E86900B1199E /* NothingViewController.swift */; };
@@ -107,6 +108,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E973F220A6A8B001BF965 /* ArchTest.h in Headers */,
 				A9F96B0F2207F61B00B1199E /* ArchTestSimulator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/ArchTest.h</key>
+		<data>
+		+zMCqLTjF2tih7jDCgiHqyzxDSg=
+		</data>
 		<key>Headers/ArchTestSimulator-Swift.h</key>
 		<data>
-		qSzT4iaC3iHUtMfW8rHaUu/VnBg=
+		5NRSZtj1VLoiQeU7JROeh10KSp4=
 		</data>
 		<key>Headers/ArchTestSimulator.h</key>
 		<data>
@@ -14,28 +18,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CWqkx6PQZ2y68+Ayfh0QacwO/HA=
+		4FQ5m/yXBs/3GJz/TwJPbExe9w8=
 		</data>
 		<key>Modules/ArchTestSimulator.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Ro/AhMH9ScwKWQ1/3NsuO1KmRzg=
+		TaxlOzy8WeWP3ePobwYrjQKamUE=
 		</data>
 		<key>Modules/ArchTestSimulator.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		XQFDKicFmYzdFV8EUZl+8p6NoIQ=
+		BMa841nc4GYGHJQuxAwELREU0QM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qWHHm0X+CgRNP/BEbvEeGoORGSE=
 		</data>
+		<key>Notes.rtf</key>
+		<data>
+		bD3U6SszCYa3aY3OAqp5ZLBhzIc=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/ArchTest.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ycAgJcjbn1iVPKQ52mNPr7VrwoobLSsyCsS4dlEfXEU=
+			</data>
+		</dict>
 		<key>Headers/ArchTestSimulator-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MZywUR9sUgriLIhfECry9J1Qmp5zbkot+BorMjaae54=
+			Uk/jjftB8jyHunViI43Rnwl/TqZx9cZEo2SBdFTUeEo=
 			</data>
 		</dict>
 		<key>Headers/ArchTestSimulator.h</key>
@@ -49,14 +64,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xKwX12COVtfw9iy0eWvBqxlW7jd9p6E+CWCYek8G1e0=
+			YGJ4iml5gcBbhZZ5ChUIZp+iAfnxfJI6sYcQiq5Uqx4=
 			</data>
 		</dict>
 		<key>Modules/ArchTestSimulator.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zQ1eNC+P8yfknOqcd872SZOe7ay8Dhu/Sb9NxOpRmSA=
+			w0GZPCrc7BaLFzCuU/7SiqLimbuc0dhNt8UlAuyk3jQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -64,6 +79,13 @@
 			<key>hash2</key>
 			<data>
 			3ix3aM9Ssa/f/PppcXDzNK+M1+K767LiNVso09vhZ6Q=
+			</data>
+		</dict>
+		<key>Notes.rtf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FA7npt8K6wnubZuhFD4fNYfCvWV8S0T4s6/C7VdVsqM=
 			</data>
 		</dict>
 	</dict>
